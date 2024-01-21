@@ -1,0 +1,26 @@
+.Block{
+    display: flex;
+    border: solid 1px black;
+    width: 100%;
+    height: 300px;
+}
+.In1{
+     width: 30%;
+     height: 100px;
+     background-color: brown;
+ }
+.In2{
+    width: 30%;
+    height: 100px;
+    background-color: cyan;
+}
+.In3{
+    width: 30%;
+    height: 100px;
+    background-color: gray;
+}
+@media (max-width: 480px) {
+    .Block{
+        flex-direction: column;
+    }
+}
